@@ -121,23 +121,23 @@ body {
   }
   
   .crossfade > figure:nth-child(1) {
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/Images/1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('1.jpg');
   }
   .crossfade > figure:nth-child(2) {
     animation-delay: 6s;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/Images/2.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('2.jpg');
   }
   .crossfade > figure:nth-child(3) {
     animation-delay: 12s;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/Images/3.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('3.jpg');
   }
   .crossfade > figure:nth-child(4) {
     animation-delay: 18s;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/Images/4.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('4.jpg');
   }
   .crossfade > figure:nth-child(5) {
     animation-delay: 24s;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/Images/5.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('5.jpg');
   }
   
   @keyframes imageAnimation {
