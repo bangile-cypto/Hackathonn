@@ -69,7 +69,7 @@ var Fake = [
   'please enter the industry you\'r industry<input type="text" class="form-control oracle-search" name="query"  placeholder="Start typing something to search..."> ',
   'Hi, how can we help you?',
   'good... Please visit our career page here is the <a href="leanerships.html">link</a> <input type="range" value="50" min="0" max="100" step="10" />',
-  'I hope all your questions have been answered if not please don\'t hesitate to ask... <div class="loading-img"><img src="Images/logo.jpeg"  alt="" width="100px" height="80px"/></div>',
+  'I hope all your questions have been answered if not please don\'t hesitate to ask... <div class="loading-img"><img src="logo.jpeg"  alt="" width="100px" height="80px"/></div>',
 //   'great.. do you want to predict another? <button class="buttonx sound-on-click">Yes</button> <button class="buttony sound-on-click">No</button> ',
   'Bye',
   ':)'
@@ -79,12 +79,12 @@ function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="Images/logo.jpeg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="logo.jpeg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="Images/logo.jpeg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="logo.jpeg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
