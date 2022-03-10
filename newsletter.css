@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav h3{
+      float: left;
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      /* background-color: rgb(255, 246, 127); */
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #F5FFF7;
+    padding: 1.5rem;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: black;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {
+      position: relative;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  /* u{
+      color: #fcca46;
+      
+  } */
+
+  .flex{
+      display: flex;
+  }
+
+  img{
+      width: 90%;
+      height: 80%;
+      margin-left: 4rem;
+      
+  }
+
+  .newsletter-firstdiv{
+      width: 80%;
+      margin: 2rem;
+      margin-left: 10rem;
+  }
+
+  .topic-one{
+      margin: 1rem;
+      background-color: #80800093;
+      color: #fff;
+      padding: 1rem;
+      height: 40%;
+  }
+  .topic-two{
+      margin: 1rem;
+      background-color: #80800093;
+      color: #fff;
+      padding: 1rem;
+      height: 40%;
+  }
+  .topic-three{
+      margin: 1rem;
+      background-color: #80800093;
+      color: #fff;
+      padding: 1rem;
+      height: 40%;
+  }
+
+  .newsletter-seconddiv{
+    margin-right: 10rem;
+  }
+
+  .underline{
+      height: 2rem;
+      width: 100%;
+      background-color: #002244;
+      top: 4rem;
+  }
+
+  button{
+      margin: 5rem;
+      padding: 1rem;
+      border: 1px solid #5b8e7d;
+      border-radius: 3rem;
+      background-color: #6d2e46;
+      bottom: 1rem;
+      position: unset;
+  }
