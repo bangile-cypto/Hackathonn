@@ -95,6 +95,9 @@ body {
   .about-us p{
     margin: 01.5em;
     letter-spacing: 3px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: #000;
   }
 
   .about h1{
